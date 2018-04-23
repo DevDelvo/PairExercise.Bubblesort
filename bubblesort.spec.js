@@ -27,11 +27,11 @@ describe("Bubble Sort", function() {
   // beforeAll(function() {
 
   // });
-  it("counts the swaps", function() {
-    spyOn(window, "swap").and.callThrough();
-    bubbleSort(array2);
-    expect(window.swap.calls.count().toEqual(2));
-  });
+  // it("counts the swaps", function() {
+  //   spyOn(window, "swap").and.callThrough();
+  //   window.bubbleSort(array2);
+  //   expect(swap.calls.count().toEqual(2));
+  // });
 
   // it("handles an empty array", function() {
   //   expect(new BubbleSort([]).bubbleSorter()).toEqual([]);
